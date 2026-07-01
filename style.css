@@ -1,62 +1,10 @@
-body{
-margin:0;
-font-family:Arial,sans-serif;
-background:#f5f5f5;
-}
+<section id="screenshots">
+  <h2>App Screenshots</h2>
 
-header{
-background:linear-gradient(135deg,#ff4d6d,#ff758f);
-color:white;
-text-align:center;
-padding:50px 20px;
-}
-
-header img{
-width:120px;
-}
-
-.btn{
-display:inline-block;
-margin-top:20px;
-padding:12px 25px;
-background:white;
-color:#ff4d6d;
-text-decoration:none;
-border-radius:30px;
-font-weight:bold;
-}
-
-section{
-padding:40px 20px;
-text-align:center;
-}
-
-.feature{
-background:white;
-margin:15px auto;
-padding:20px;
-max-width:500px;
-border-radius:12px;
-box-shadow:0 4px 10px rgba(0,0,0,.1);
-}
-
-.gallery{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:20px;
-}
-
-.gallery img{
-width:220px;
-border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,.2);
-}
-
-footer{
-background:#222;
-color:white;
-text-align:center;
-padding:20px;
-margin-top:40px;
-}
+  <div class="gallery">
+    <img src="./screen1.jpg" alt="Screenshot 1">
+    <img src="./screen2.jpg" alt="Screenshot 2">
+    <img src="./screen3.jpg" alt="Screenshot 3">
+    <img src="./screen4.jpg" alt="Screenshot 4">
+  </div>
+</section>
