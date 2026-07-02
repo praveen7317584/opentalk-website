@@ -1,10 +1,20 @@
-<section id="screenshots">
-  <h2>App Screenshots</h2>
+ody{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+}
 
-  <div class="gallery">
-    <img src="./screen1.jpg" alt="Screenshot 1">
-    <img src="./screen2.jpg" alt="Screenshot 2">
-    <img src="./screen3.jpg" alt="Screenshot 3">
-    <img src="./screen4.jpg" alt="Screenshot 4">
-  </div>
-</section>
+.features{
+    padding:60px 20px;
+    text-align:center;
+    background:#ffffff;
+}
+
+.feature-box{
+    background:#f5f5f5;
+    margin:15px auto;
+    padding:20px;
+    max-width:400px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
