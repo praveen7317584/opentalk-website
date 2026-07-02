@@ -175,3 +175,26 @@ font-size:18px;
 .navbar a:hover{
 color:#ff4d6d;
 }
+cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    background:#fff;
+    width:280px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card h3{
+    color:#ff4d6d;
+}
+
+.faq{
+    background:#fafafa;
+    padding:60px 20px;
+}
