@@ -252,3 +252,20 @@ footer a:hover{
 .footer a:hover{
     color:white;
 }
+features{
+    background:#ffffff;
+    padding:70px 20px;
+    text-align:center;
+}
+
+.features h2{
+    margin-bottom:30px;
+}
+
+.features .card{
+    transition:0.3s;
+}
+
+.features .card:hover{
+    transform:translateY(-8px);
+}
