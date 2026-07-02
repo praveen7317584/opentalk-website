@@ -198,3 +198,12 @@ cards{
     background:#fafafa;
     padding:60px 20px;
 }
+footer a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+}
+
+footer a:hover{
+    text-decoration:underline;
+}
