@@ -207,3 +207,25 @@ footer a{
 footer a:hover{
     text-decoration:underline;
 }
+.navbar{
+    background:#ffffff;
+    padding:15px 20px;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar a{
+    text-decoration:none;
+    color:#ff4d6d;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.navbar a:hover{
+    color:#ff1f5a;
+}
