@@ -1,1 +1,5 @@
 
+User-agent: *
+Allow: /
+
+Sitemap: https://praveen7317584.github.io/opentalk-website/sitemap.xml
