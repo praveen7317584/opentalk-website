@@ -267,5 +267,23 @@ features{
 }
 
 .features .card:hover{
+
+    .reviews{
+    background:#f9f9f9;
+    padding:70px 20px;
+    text-align:center;
+}
+
+.reviews h2{
+    margin-bottom:30px;
+}
+
+.reviews .card{
+    transition:0.3s;
+}
+
+.reviews .card:hover{
+    transform:scale(1.03);
+}
     transform:translateY(-8px);
 }
